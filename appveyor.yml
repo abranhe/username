@@ -19,4 +19,4 @@ install:
 build: off
 
 test_script:
-  - cmd: "coverage run test.py"
+  - cmd: "%PYTHON3%\\python.exe -m coverage run test.py"
