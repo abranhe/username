@@ -9,7 +9,6 @@ environment:
 platform: x64
 
 install:
-  - python3 --version
   - pip --version
   - pip install codecov
 
