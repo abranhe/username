@@ -1,0 +1,19 @@
+environment:
+
+  matrix:
+
+    - PYTHON: "C:\\Python36-x64"
+      PYTHON_VERSION: "3.6.3"
+      PYTHON_ARCH: "64"
+      PIP: "C:\\Python36-x64\\Scripts\\pip"
+
+platform: x64
+
+install:
+  - pip install codecov
+
+build_script:
+  - cmd: coverage run test.py
+
+notifications:
+  email: false
