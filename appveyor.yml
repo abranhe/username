@@ -13,7 +13,7 @@ init:
   - cmd: "%PIP3% --version"
 
 install:
-  - pip3 install codecov
+  - cmd: "%PIP3% install codecov"
 
 build_script:
   - cmd: coverage run test.py
