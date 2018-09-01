@@ -8,10 +8,9 @@ environment:
 
 platform: x64
 
-before_script:
-  - pip --version
-
 install:
+  - python3 --version
+  - pip --version
   - pip install codecov
 
 build_script:
