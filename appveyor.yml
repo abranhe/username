@@ -16,4 +16,4 @@ install:
   - cmd: "%PIP3% install codecov"
 
 build_script:
-  - cmd: coverage run test.py
+  - cmd: "coverage run test.py"
