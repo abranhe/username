@@ -4,13 +4,13 @@ environment:
 
     - PYTHON: "C:\\Python34-x64"
       PYTHON_VERSION: "3.4.x"
-      PIP: "C:\\Python34-x64\\Scripts\\pip"
+      PIP: "C:\\Python34-x64\\Scripts\\pip3"
 
 platform: x64
 
 install:
-  - pip --version
-  - pip install codecov
+  - pip3 --version
+  - pip3 install codecov
 
 build_script:
   - cmd: coverage run test.py
