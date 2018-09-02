@@ -1,7 +1,6 @@
 
 <p align="center">
-	<a href="https://pypi.org/project/username"><img src="https://cdn.abraham.gq/projects/username/logo.svg" width="30%"></a>
-	<br>
+	<a href="https://pypi.org/project/username"><img src="https://cdn.abraham.gq/projects/username/logo.svg"></a>
 	<br>
 	<br>
 	<br>
@@ -24,7 +23,7 @@
 > ⚠️  Required Python3
 
 ```
-$ pip3 install username
+$ pip install username
 ```
 
 # Usage
