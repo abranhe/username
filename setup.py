@@ -28,8 +28,13 @@ setuptools.setup(
 				'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+  			'Operating System :: OS Independent',
+  			'Operating System :: MacOS',
+        'Operating System :: Unix',
+
     ),
-    project_urls={
+	  project_urls={
         'Source': 'https://github.com/abranhe/username',
     },
+	  keywords='cli command-line-interface python bash-tool username',
 )
