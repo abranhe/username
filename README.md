@@ -20,8 +20,6 @@
 
 # Install
 
-> ⚠️  Required Python3
-
 ```
 $ pip install username
 ```
