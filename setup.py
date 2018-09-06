@@ -9,7 +9,7 @@ setuptools.setup(
     packages = ["username"],
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    version = "1.0.1",
+    version = "2.0.0",
     description = "Get the current user name",
     author = "Carlos Abraham",
     author_email = "abraham@abranhe.com",
