@@ -1,8 +1,9 @@
 import sys
 import os
+import getpass
 
 class Username():
-	user = os.path.split(os.path.expanduser('~'))[-1]
+	user = os.environ['SUDO_USER'] if 'SUDO_USER' in os.environ else getpass.getuser()
 
 	def __call__(self):
 		return  self.user
