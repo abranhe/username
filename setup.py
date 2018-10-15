@@ -1,7 +1,7 @@
 import setuptools
 import sys
 
-with open("README.md", "r") as readme:
+with open("readme.md", "r") as readme:
     long_description = readme.read()
 
 setuptools.setup(
@@ -9,7 +9,7 @@ setuptools.setup(
     packages = ["username"],
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    version = "2.0.0",
+    version = "2.0.1",
     description = "Get the current user name",
     author = "Carlos Abraham",
     author_email = "abraham@abranhe.com",
