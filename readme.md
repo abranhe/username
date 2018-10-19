@@ -1,6 +1,6 @@
 
 <p align="center">
-	<a href="https://pypi.org/project/username"><img src="https://cdn.abraham.gq/projects/username/logo.svg"></a>
+	<a href="https://pypi.org/project/username"><img src="https://cdn.abranhe.com/projects/username/logo.svg"></a>
 	<br>
 	<br>
 	<br>
@@ -12,9 +12,9 @@
 	<a href="https://ci.appveyor.com/project/abranhe/username"><img src="https://ci.appveyor.com/api/projects/status/8bp4dpqr76nx2nxt?svg=true" /></a>
 	<a href="https://github.com/abranhe/username/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/username.svg" /></a>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
-	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<a href="https://paypal.me/abranhe/10"><img src="https://cdn.abraham.gq/badges/paypal.svg" /></a>
+	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
+	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
+	<a href="https://paypal.me/abranhe/10"><img src="https://cdn.abranhe.com/badges/paypal.svg" /></a>
 </p>
 
 
