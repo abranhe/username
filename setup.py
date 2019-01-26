@@ -9,7 +9,7 @@ setuptools.setup(
     packages = ["username"],
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    version = "2.0.1",
+    version = "2.0.2",
     description = "Get the current user name",
     author = "Carlos Abraham",
     author_email = "abraham@abranhe.com",
@@ -28,8 +28,9 @@ setuptools.setup(
 			'Operating System :: MacOS',
 			'Operating System :: Unix',
     ),
-	  project_urls={
+    project_urls={
         'Source': 'https://github.com/abranhe/username',
     },
-	  keywords='cli command-line-interface python bash-tool username',
+    keywords='cli command-line-interface python bash-tool username',
+    include_package_data=True
 )
