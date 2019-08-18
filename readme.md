@@ -52,4 +52,4 @@ print(username())
 
 # License
 
-[MIT](https://github.com/abranhe/username/blob/master/license) License © [Carlos Abraham](https://github.com/abranhe)
+[MIT](https://github.com/abranhe/username/blob/master/license) License (C) [Carlos Abraham](https://github.com/abranhe)
