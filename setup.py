@@ -22,7 +22,6 @@ setup(
     url=URL,
     project_urls={'Source': GITHUB_URL},
 
-
     author='Abraham Hernandez',
     author_email='abraham@abranhe.com',
     license='MIT',
