@@ -1,20 +1,18 @@
 environment:
-
   matrix:
-
     - PYTHON3: "C:\\Python34-x64"
-      PYTHON3_VERSION: "3.4.x"
+      PYTHON3_VERSION: '3.4.x'
       PIP3: "C:\\Python34-x64\\Scripts\\pip"
 
 platform: x64
 
 init:
   - cmd: "%PYTHON3%\\python --version"
-  - cmd: "%PIP3% --version"
+  - cmd: '%PIP3% --version'
 
 install:
-  - cmd: "%PIP3% install codecov"
-  - cmd: "%PIP3% install coverage"
+  - cmd: '%PIP3% install codecov'
+  - cmd: '%PIP3% install coverage'
 
 build: off
 
