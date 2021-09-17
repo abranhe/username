@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/abranhe/username/actions/workflows/test.yml">
-		<img src="https://github.com/abranhe/username/actions/workflows/test.yml/badge.svg" />
+	<a href="https://github.com/abranhe/username/actions/workflows/main.yml">
+		<img src="https://github.com/abranhe/username/actions/workflows/main.yml/badge.svg" />
 	</a>
 	<a href="https://app.travis-ci.com/github/abranhe/username">
 		<img src="https://img.shields.io/travis/com/abranhe/username.svg?logo=travis" />
