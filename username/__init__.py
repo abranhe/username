@@ -1,3 +1,18 @@
+"""
+Get the username of the current user.
+
+Example:
+
+```python
+import username
+
+username()
+# 'abranhe'
+```
+
+Read more on the [documentation](https://github.com/abranhe/username)
+"""
+
 import sys
 import os
 import getpass

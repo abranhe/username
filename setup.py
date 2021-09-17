@@ -3,12 +3,12 @@
 
 """The setup.py file for username"""
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 DESCRIPTION = 'Get the current username'
 LONG_DESCRIPTION = open("readme.md").read()
 
-VERSION = '2.0.5'
+VERSION = '2.1.0'
 URL = 'https://projects.abranhe.com/username'
 GITHUB_URL = 'https://github.com/abranhe/lupe'
 
@@ -42,6 +42,6 @@ setup(
     ],
 
 
+		packages=find_packages(),
     keywords='cli command-line-interface python bash-tool username',
-    include_package_data=True
 )
