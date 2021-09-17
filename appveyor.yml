@@ -1,20 +1,14 @@
 environment:
   matrix:
-    - PYTHON3: "C:\\Python34-x64"
-      PYTHON3_VERSION: '3.4.x'
-      PIP3: "C:\\Python34-x64\\Scripts\\pip"
-
-platform: x64
-
-init:
-  - cmd: "%PYTHON3%\\python --version"
-  - cmd: '%PIP3% --version'
+    - PYTHON: "C:\\Python27_32"
+      PYTHON_VERSION: '2.7'
+    - PYTHON: "C:\\Python34_64"
+      PYTHON_VERSION: '3.4'
 
 install:
   - cmd: '%PIP3% install codecov'
-  - cmd: '%PIP3% install coverage'
 
-build: off
+build: false
 
 test_script:
-  - cmd: "%PYTHON3%\\python.exe -m coverage run test.py"
+  - cmd: coverage run test.py"

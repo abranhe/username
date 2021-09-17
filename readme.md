@@ -10,8 +10,8 @@
 	<a href="https://github.com/abranhe/username/actions/workflows/test.yml">
 		<img src="https://github.com/abranhe/username/actions/workflows/test.yml/badge.svg" />
 	</a>
-	<a href="https://travis-ci.org/abranhe/username">
-		<img src="https://img.shields.io/travis/abranhe/username.svg?logo=travis" />
+	<a href="https://app.travis-ci.com/github/abranhe/username">
+		<img src="https://img.shields.io/travis/com/abranhe/username.svg?logo=travis" />
 	</a>
 	<a href="https://ci.appveyor.com/project/abranhe/username">
 		<img src="https://ci.appveyor.com/api/projects/status/8bp4dpqr76nx2nxt?svg=true" />
