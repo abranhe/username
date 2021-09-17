@@ -1,8 +1,10 @@
 name: publish
 
-on:
-  release:
-    types: [created]
+# on:
+#   release:
+#     types: [created]
+
+on: [push]
 
 jobs:
   build:
@@ -14,8 +16,14 @@ jobs:
         with:
           python-version: 3.7
 
+      - name: Install Dependencies
+        run: pip3 install wheel twine
+
+      - name: Build Package
+        run: python3 setup.py sdist bdist_wheel
+
       - name: Publish to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          user: abranhe
-          password: ${{ secrets.PYPI_API_TOKEN }}
+        run: twine upload dist/*
+        env:
+          TWINE_USERNAME: abranhe
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}

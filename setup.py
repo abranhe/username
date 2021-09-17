@@ -8,7 +8,7 @@ from setuptools import setup
 DESCRIPTION = 'Get the current username'
 LONG_DESCRIPTION = open("readme.md").read()
 
-VERSION = '2.0.4'
+VERSION = '2.0.5'
 URL = 'https://projects.abranhe.com/username'
 GITHUB_URL = 'https://github.com/abranhe/lupe'
 
