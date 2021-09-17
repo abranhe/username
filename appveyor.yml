@@ -1,17 +1,17 @@
 environment:
-  global:
-    # See: http://stackoverflow.com/a/13751649/163740
-    CMD_IN_ENV: "cmd /E:ON /V:ON /C .\\appveyor\\run_with_env.cmd"
-
   matrix:
-    - PYTHON: "C:\\Python27_32"
-      PYTHON_VERSION: '2.7'
+    - PYTHON: "C:\\Python27-x64"
+      PYTHON_VERSION: '2.7.x'
+      PYTHON_ARCH: '64'
 
-    - PYTHON: "C:\\Python34_64"
-      PYTHON_VERSION: '3.4'
+    - PYTHON: "C:\\Python34-x64"
+      PYTHON_VERSION: '3.4.x'
+      PYTHON_ARCH: '64'
+
+build: off
 
 install:
-  - 'python -m pip install --upgrade pip'
+  - pip install codecov
 
 test_script:
-  - 'coverage run test.py'
+  - coverage run test.py
